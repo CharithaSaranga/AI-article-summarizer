@@ -1,7 +1,5 @@
 # AI Article Summarizer App
 
-![App Preview](./app-preview.png)
-
 ## Overview
 
 This React.js application allows you to summarize articles by providing a URL. It utilizes an AI-powered service to generate concise summaries from lengthy articles. You can also store and manage a history of summarized articles.
