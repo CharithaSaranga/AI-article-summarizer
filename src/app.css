@@ -1,0 +1,45 @@
+/* Remove the .all-app selector from your app.css */
+:root {
+    --primary-color: #7ED957;
+    /* Light Green */
+    --secondary-color: #FFFFFF;
+    /* White */
+    --background-color: #F0F3F2;
+    /* Light Gray */
+    --box-shadow-color: rgba(126, 217, 87, 0.3);
+    /* Glassy shadow color */
+}
+
+
+body {
+    /* Apply the gradient to the html and body elements for the whole page */
+    background: radial-gradient(at 27% 37%,
+            hsla(215, 98%, 61%, 1) 0px,
+            transparent 0%),
+        radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+        radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+        radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    background-repeat: no-repeat;
+    /* Prevent background repetition */
+    background-size: 100% 100%;
+    /* Stretch background to window size */
+}
+
+.hero-section{
+    /* Apply the gradient to the html and body elements for the whole page */
+        background: radial-gradient(at 27% 37%,
+                hsla(215, 98%, 61%, 1) 0px,
+                transparent 0%),
+            radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+            radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+            radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+            radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+            radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+            radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+        background-repeat: no-repeat;
+        /* Prevent background repetition */
+        background-size: 100% 100%;
+}

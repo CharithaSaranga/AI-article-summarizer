@@ -1,0 +1,53 @@
+.highlight-text {
+    font-size: 80px;
+
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-weight: 700 !important;
+}
+
+.git-btn {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-weight: 600;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 1px black;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.git-btn:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header-text {
+    font-size: 60px;
+    margin: 2rem;
+    margin-bottom: 1rem !important;
+    padding: 0;
+    line-height: 70px;
+}
+
+.description {
+    color: rgb(65, 65, 65) !important;
+    font-weight: 450 !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body{
+    line-height: 25px;
+}
